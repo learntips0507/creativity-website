@@ -25,9 +25,9 @@ a:visited{
     //color: blue;
 }
 section{
-    height: 700px;
-    padding-bottom: 70px;
-    padding-top: 70px;
+    height: 600px;
+    padding-bottom: 50px;
+    padding-top: 30px;
 }
 .whole-body{
     width:0 auto;
@@ -82,22 +82,6 @@ section{
 .latest-img{
     float: left;
     width: 25%;
-    margin-left: 4%;
+    margin-left: 5%;
     padding-left: 3%;
-}
-#latest-img-one:hover{
-    width: 30%;
-    position: relative;
-    position: fixed;
-    top: 50%;
-}
-#latest-img-two:hover{
-    width: 30%;
-    position: relative;
-    position: fixed;
-}
-#latest-img-three:hover{
-    width: 30%;
-    position: relative;
-    position: fixed;
 }
