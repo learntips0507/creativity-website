@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', ;
+}
+p{
+    font-size: 18px;
+    color: rgb(122, 121, 121);
+    padding-bottom: 20px;
+}
+h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+h2{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+img{
+    width: 100%;
+}
+a:visited{
+    //color: blue;
+}
+section{
+    height: 700px;
+    padding-bottom: 70px;
+    padding-top: 70px;
+}
+.whole-body{
+    width:0 auto;
+}
+.half-width{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.header-part{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+.header-text, .biography-text{
+    padding-top: 25%;
+    padding-left: 5%;
+}
+.hello{
+    font-size: 40px;
+}
+.name{
+    font-size: 50px;
+    color: deeppink;
+}
+.hire-me{
+    background-color: deeppink;
+    color: white;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.hire-me:hover{
+    color: darkorange;
+    background-color: black;
+}
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.download-cv{
+    text-transform: none;
+}
+.my-latest-work{
+    height: 700px;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.my-latest-work img{
+    height: 250px;
+}
+.latest-img{
+    float: left;
+    width: 25%;
+    margin-left: 4%;
+    padding-left: 3%;
+}
+#latest-img-one:hover{
+    width: 30%;
+    position: relative;
+    position: fixed;
+    top: 50%;
+}
+#latest-img-two:hover{
+    width: 30%;
+    position: relative;
+    position: fixed;
+}
+#latest-img-three:hover{
+    width: 30%;
+    position: relative;
+    position: fixed;
+}
