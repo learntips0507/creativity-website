@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---------------google font----------------->
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <!---------------Slider plugin link----------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!------------style css------------>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Create My Awesome Website</title>
 </head>
 <body>
+    <!---------------Herder Section----------------->
     <section class="header-part">
         <div class="half-width">
             <div class="header-text">
@@ -21,6 +28,7 @@
             <img src="images/peter.png" alt="">
         </div>
     </section>
+    <!---------------Biography Section----------------->
     <section class="biography">
         <div class="half-width">
             <img src="images/peter_dream.png" alt="">
@@ -33,31 +41,38 @@
             </div>
         </div>
     </section>
+    <!---------------Latest Work Slider Section----------------->
     <section class="my-latest-work">
-        <div id="latest-img-one" class="latest-img">
-            <img src="images/work-1.png" alt="">
-        </div>
-        <div id="latest-img-two" class="latest-img">
-            <img src="images/work-2.jpg" alt="">
-        </div>
-        <div id="latest-img-three" class="latest-img">
-            <img src="images/work-3.jpg" alt="">
-        </div>
+        <h2>My Latest Work</h2>
+        <div class="carousel">
+            <a class="carousel-item" href="#one"><img src="images/work-1.png"></a>            
+            <a class="carousel-item" href="#one"><img src="images/work-2.jpg"></a> 
+            <a class="carousel-item" href="#one"><img src="images/work-3.jpg"></a>
+        </div>    
     </section>
+    <!---------------Client Say section----------------->
     <section class="client-say">
         <div class="full-width">
             <h2>What Client are say</h2>
             <h4>Bruch Moccy</h4>
             <p>Founder & SCO Alles</p>
-            <p>Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content.</p>
-            <a class="client-link" href="#">
-                <p>Leave me a massage in the</p>
-                <p class="email">shahjahans0055@gmail.com</p>
-            </a>
+            <p class="p-exception">"Lorem ipsum is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content."</p>
+            <div class="client-link">
+                <p>Leave me a massage in the </p>
+                <a  class="client-link-style" href="#">shahjahans0055@gmail.com</a>
+            </div>
         </div>
     </section>
+    <!---------------footer section----------------->
     <footer>
         <p>&copy; 2020- MD.SHAHJAHAN | Programming Hero Course</p>
     </footer>
+
+    <script>
+          $(document).ready(function(){
+            $('.carousel').carousel();
+          });
+    </script>
+        
 </body>
 </html>
